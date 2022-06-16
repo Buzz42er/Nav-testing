@@ -1,62 +1,53 @@
 body {
-    display: flex;
-    justify-content: center;
-    color: white;
+  display: flex;
+  justify-content: center;
+  color: white;
 }
 
 nav {
-    background-color: rgb(49, 49, 49);
-    box-shadow: 0px -8px 15px -7px #000000;
-    border-radius: 1px 1px 0 0;
-    width: 35%;
-    padding: 15px 0 0px 0;
-    position: fixed;
-    align-self: center;
-    bottom: 0px;
-    height: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    border-radius: 20px 20px 0 0;
-   
+  background-color: rgb(49, 49, 49);
+  box-shadow: 0px -8px 15px -7px #000000;
+  border-radius: 1px 1px 0 0;
+  width: 35%;
+  padding: 15px 0 0px 0;
+  position: fixed;
+  align-self: center;
+  bottom: 0px;
+  height: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 20px 20px 0 0;
 }
 
 nav span {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 nav span span {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 nav a img {
-    background-color: rgb(49, 49, 49);
-    
-    height: 30px;
-    padding: 10px;
+  background-color: rgb(49, 49, 49);
 
-
+  height: 30px;
+  padding: 10px;
 }
 
 /* Change the link color to #111 (black) on hover */
 nav img:hover {
-    background-color: rgb(53, 53, 53);
-    color: rgb(0, 225, 255);
-    box-shadow: 0 0 10px 5px rgba(29, 29, 29, 0.685);
-    border-radius: 40%;
-
-    
-    
+  background-color: rgb(53, 53, 53);
+  color: rgb(0, 225, 255);
+  box-shadow: 0 0 10px 5px rgba(29, 29, 29, 0.685);
+  border-radius: 40%;
 }
 
 nav:hover {
-    height: 80px;
+  height: 80px;
 }
-
-
 
 /*NAV ** end*/
 
-                                /*mobile nav*/
-
+/*mobile nav*/

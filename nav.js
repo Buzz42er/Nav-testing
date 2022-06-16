@@ -2,10 +2,9 @@
 //nav popup
 
 const navHover = function navHover() {
-    const nav = document.getElementById("nav");
+  const nav = document.getElementById("nav");
 
-    nav.style.transition = "all 1s";
-  
+  nav.style.transition = "all 1s";
 };
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -25,4 +24,3 @@ const openNav = function openNav() {
     }, 600);
   });
 };
-
