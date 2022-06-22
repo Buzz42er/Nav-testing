@@ -8,12 +8,12 @@ const navHover = function navHover() {
   nav.style.height = "80px";
   nav.style.transition = "all 1s";
   
-  setTimeout(function navBackDown() {
-    nav.style.height = "10px";
-    console.log("to 10px");
-  }, 600);
-
 };
+
+function navOut(){
+  nav.style.height = "10px";
+  console.log("to 10px");
+}
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //Menu button
@@ -32,3 +32,7 @@ const openNav = function openNav() {
     }, 600);
     
 };
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
